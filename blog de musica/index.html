@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Blog de Musica</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
@@ -16,7 +16,6 @@
       <img src="img/redh.jpg" alt="logo" class="logo">
     </div>
     <ul class="nav navbar-nav redes ">
-
       <li><img src="img/fb.png" alt=""></a></li>
       <li><img src="img/tt.png" alt=""></a></li>
       <li><img src="img/ig.png" alt=""></a></li>
@@ -24,10 +23,113 @@
   </div>
 </nav>
 
-<div class="container">
-  <h3>Basic Navbar Example</h3>
-  <p>navigation bar is a navigation header that is placed at the top of the page.</p>
-</div>
+<div class="container"><!-- este es el contenedor principal-->
+  <div class="row navegacion">
+    <div class="navbar text-center">
+     <div class="col-lg-2 btn btn-default"> <a href="#">Inicio</a></div>
+     <div class="col-lg-2 btn btn-default"> <a href="#">Artistas</a></div>
+     <div class="col-lg-2 btn btn-default"> <a href="#">Album</a></div>
+     <div class="col-lg-2 btn btn-default"> <a href="#">Exitos</a></div>
+     <div class="col-lg-2 btn btn-default"> <a href="#">Letras</a></div>
+     <div class="col-lg-2 btn btn-default"><a href="#">Foros</a></div>
+   </div>
+  </div>
+     <!--  <div class="row contenido text-center">
+     <div class="col-lg-5"> <p>Bohemian Rhapsody is a foot-stomping celebration of Queen, their music and their extraordinary lead singer Freddie Mercury. Freddie defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. The film traces the meteoric rise of the band through their iconic songs and revolutionary sound. They reach unparalleled success, but in an unexpected turn Freddie, surrounded by darker influences, shuns Queen in pursuit of his solo career. Having suffered greatly without the collaboration of Queen, Freddie manages to reunite with his bandmates just in time for Live Aid. While bravely facing a recent AIDS diagnosis, Freddie leads the band in one of the greatest performances in the history of rock music. Queen cements a legacy that continues to inspire outsiders, dreamers and music lovers to this day.</p></div>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <div class="col-lg-3">
+     <img src="img/fred.jpg" alt="">
+     </div>
+     <  div class="col-lg-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </div>
+     </div>-->
+ <div class="row contenido text-center"> 
+   <div class="col-lg-8 uno">            <!-- de aqui sale el grupo del lado derecho de la pantalla-->
+    <div class="row">                    <!--Lado Derecho de la pantalla (articulo 1)-->
+      <div class="col-lg-12 titulo1">
+        <h3>"Bohemian Rapsody (2018)"</h3> <!--row del titulo-->
+      </div>
+    </div>
+    <div class="row arriba">
+      <div class="col-lg-8">
+        <p>Bohemian Rhapsody es una celebración de Queen, su música y su extraordinario cantante Freddie Mercury. Freddie desafió los estereotipos y rompió la convención para convertirse en uno de los artistas más queridos del planeta. La película rastrea el ascenso meteórico de la banda a través de sus canciones icónicas y su sonido revolucionario. Alcanzan un éxito incomparable, pero en un giro inesperado, Freddie, rodeado de influencias más oscuras, rehuye a Queen en busca de su carrera en solitario. Después de haber sufrido mucho sin la colaboración de Queen, Freddie logra reunirse con sus compañeros de banda justo a tiempo para Live Aid. Mientras enfrenta con valentía un reciente diagnóstico de SIDA, Freddie lidera la banda en una de las mejores actuaciones en la historia de la música rock. Queen consolida un legado que continúa inspirando a forasteros, soñadores y amantes de la música hasta hoy.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/fred.jpg" alt="">
+      </div>
+    </div>
 
+     <div class="row">
+      <div class="col-lg-12">
+       <div class="form-group">
+         <label for="usr"></label>
+           <input type="text" class="form-control" id="usr" placeholder="Comentario">
+       </div>
+      </div>
+     </div>
+
+     <div class="row">
+        <div class="col-lg-12 titulo1">
+          <h3>"Deftones Editará Nuevo Album para el 2019"</h3>
+        </div>
+     </div>
+
+     <div class="row arriba">
+       <div class="col-lg-4">
+          <img src="img/deftones.jpg" alt="">
+       </div>
+      <div class="col-lg-8">
+         <p>Una de las mejores noticias que se nos ocurren de cara al movimiento discográfico del próximo año. Deftones tienen planes de publicar nuevo material en 2019, tras varias señales ofrecidas por los californianos, la banda de Chino Moreno confirmó las mejores sospechas al compartir en redes sociales una imagen de su ciudad natal, Sacramento, junto a los concisos hashtag de #2019, #new music y #deftones. <br>
+            Deftones tienen a día de hoy su agenda despejada, y sin actividad de directo en mente parece que están concentrados en la grabación de este nuevo álbum, noveno en su carrera y que sucederá al magnífico último trabajo de la banda, “Gore” de 2016.
+         </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="form-group">
+               <label for="usr"></label>
+                 <input type="text" class="form-control" id="usr" placeholder="Comentario">
+            </div>
+        </div>
+      </div>
+     </div>
+   </div>
+
+  <div class="col-lg-4">
+      <div class="row search">
+        <div class="col-lg-12">
+          <div class="form-group">
+            <label for="usr"></label>
+              <input type="text" class="form-control" id="usr" placeholder="Buscar por...">
+           </div>
+        </div>
+        <div class="row words">
+         <div class="col-lg-12">
+          <ul class="list-group list-group-flush bandas ">
+            <li class="list-group-item btn btn-default">Red hot Chili Peppers</li>
+            <li class="list-group-item btn btn-default">Metallica</li>
+            <li class="list-group-item btn btn-default">Slipknot</li>
+            <li class="list-group-item btn btn-default">Linkin Park</li>
+            <li class="list-group-item btn btn-default">System Of A Down</li>
+            <li class="list-group-item btn btn-default">Korn</li>
+            <li class="list-group-item btn btn-default">Blink 182</li>
+            <li class="list-group-item btn btn-default">Deftones</li>
+            <li class="list-group-item btn btn-default">Marily Manson</li>
+            <li class="list-group-item btn btn-default">Kiss</li>
+            <li class="list-group-item btn btn-default">The Beatles</li>
+            <li class="list-group-item btn btn-default">The Rolling Stones</li>
+            <li class="list-group-item btn btn-default">AC/DC</li>
+            <li class="list-group-item btn btn-default">Pink Floyd</li>
+            <li class="list-group-item btn btn-default">Guns & Roses</li>
+            <li class="list-group-item btn btn-default">Nirvana</li>
+            <li class="list-group-item btn btn-default">Ramones</li>
+            <li class="list-group-item btn btn-default">Aerosmith</li>
+            <li class="list-group-item btn btn-default">ColdPlay</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   </div>
+ </div>
+</div>
 </body>
 </html>

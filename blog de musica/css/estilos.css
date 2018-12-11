@@ -1,69 +1,3 @@
-/*.blog   {
-  background: red;
-  width: 100%;
-  height: 100%;
-
-}
-
-header{
-  background: black;
-}
-nav{
-  max-height: 40px;
-}
-.logo {
-  max-width: 120px;
-  padding: 2px;
-   margin: 10px;
-}
-  
-.jumbotron{
-    
-  color: rgb(214, 200, 200);
-  min-height: 500px;
-  margin-bottom: 0px;
-  border-radius: 0px !important;
-    /*background:  url(../img/rhcp.jpg);
-  background-color:red ;
-}
-  
-
-.Inicio {
-  min-height: 45px;
-  background: #ffffff;
-   
-}
-.list-inline{
-  float: right;
-  margin-top: 60px;
-} 
-
-.Inicio div{
-  margin-top: 10px;
-}
-.jumbotron .izq{
-  background-color:black;
-  color: #ffffff;
-  min-height: 400px;
-    
-}
-  .jumbotron .der {
-    background-color: beige;
-  
-  }
-
-.jumbotron p{
-  text-align: justify;
-}
-
-.izq{
-  margin-bottom: 1px;
-  padding: 1%;
-}
-.fred{
-  margin-top: 50px;
-}*/
-
 .redes{
   float: right;
   background-color:   black;
@@ -72,4 +6,28 @@ nav{
 
 .logo{
   max-width: 100px;
+}
+/*.navegacion{
+  background-color: grey;
+}
+*/
+.navegacion{
+  max-height: 30px;
+
+}
+.contenido{
+  text-align: justify;
+}
+.abajo img{
+  max-height: 300px;
+}
+.search{
+  background-color: grey;
+}
+.bandas li {
+  border-radius: 1px;
+
+}
+.words{
+  border-top: 20px;
 }
