@@ -1,11 +1,11 @@
 .redes{
   float: right;
-  background-color:   black;
+
   margin-top: 50px;
 }
 
 .logo{
-  max-width: 100px;
+  max-width: 120px;
 }
 /*.navegacion{
   background-color: grey;
