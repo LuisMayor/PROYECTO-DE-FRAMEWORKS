@@ -6,6 +6,7 @@
   background-size: cover;
   width: 100%;
   height: 100%;
+  background-attachment: fixed;
    }
    #all{
      background-color:rgba(191, 220, 234, 0.5);
@@ -29,14 +30,14 @@ border-bottom: 0.8px solid #ffffff;
   text-shadow: none !important;
   font-size: 160%;
   float: left;
-  background-color: rgba(27, 116, 116, 0.8);
+  background-color: rgba(27, 116, 116, 1);
   padding-top: 5%;
   padding-right: 10%;
   }
   #panel{
-   
+   border-radius: 1%;
     padding: 5%;
-    background-color: rgba(230, 230, 230,1);
+    background-color: rgba(230, 230, 230,0.8);
   }
   #item{
     color: #ffffff;
@@ -52,6 +53,8 @@ border-bottom: 0.8px solid #ffffff;
   .img-arepa img{
     height: 110px;
     width: 120px;
+    border: 5px solid #ffffff;
+    padding: 2%;
   }
   
    
@@ -78,4 +81,13 @@ border-bottom: 0.8px solid #ffffff;
  }
  .panel-izq{
    padding: 2%;
+   border-radius: 22px;
  }
+#reina img{
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border: 5px solid rgb(104, 13, 18);
+}
+
