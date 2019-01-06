@@ -30,4 +30,22 @@ body {
 .imagenes{
     padding: 2%;
 }
+.catatumbo{
+    background-color: #ffffff;
+    padding: 2%;
+}
+.catatumbo p{
+    text-align: justify;
+    font-style: helvetica;
+    font-size: 16px;
+    padding: 2%;
+}
+.autor{
+    background: #ffffff;
+    padding: 2%;
 
+}
+
+.autor img{
+    border-radius: 50%;
+}
