@@ -11,9 +11,10 @@
   <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
   crossorigin="anonymous">
-  <title>Contenedores y Sistema de Rejilla</title>
+  <title>Blog de turismo</title>
 </head>
 <body>
+    
  <div class="header  lighten-1 z-depth-3 "></div>  <!--header de fondo-->
  <div class="row"> 
         <div class="s12 col  darken-3 barra-superior"> 
@@ -41,17 +42,18 @@
         <div class="s12 l4 col aragua">
                 <img src="img/cuyagua.jpg" alt="">  
                 <img src="img/cata.jpg" alt="">      
-            </div>
-        <div class="s12 l4 col ">
+        </div>
+        <div class="s12 l4 col salto">
             <img src="img/salto.JPG" alt="">
         </div>
         <div class="s12 l3 col coro">
             <img src="img/casco.jpeg" alt="">
             <img src="img/church.jpeg" alt="">
+            <img src="img/medano.jpg" alt="">
         </div>
  </div>
-<div class="row">
-    <div class="s12 l8 col ">
+ <div class="row">
+    <div class="s12 l9 col ">
         <div class="row catatumbo">  
             <div class="s12 l6 col">
                     <img src="img/catatumbo.png" alt=""> 
@@ -65,19 +67,47 @@
            
         </div>
     </div>
-    <div class="s12 l4 col">
+    <div class="s12 l3 col">
         <div class="row autor"> 
             <div class="s12 col center">
                 <img src="img/yo.jpeg" alt="">
                 <h4>Perfil del Autor</h4>
                 <hr>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s  </p>
             </div>
         </div>
-        
-       
     </div>
-</div>
+ </div>
+ <div class="row comentario">
+    <div class="s12 l12 col">
+        <div class="row">
+            <div class="s12">
+                    <h3>Deja tu comentario</h3>
+            </div>
+        </div>       
+    </div>
+    <div class="s12 l12 col">
+        <div class="row">
+            <div class="s12 l6 col">
+                    <i class="fas fa-user-circle fa-2x">Nombre:</i>
+                    <hr>
+            </div>
+            <div class="s12 l6 col">
+                    <i class="far fa-envelope fa-2x">Email:</i>
+                    <hr>
+            </div>
+        </div>  
+    </div>
+    <div class="s12 col">
+            <i class="far fa-comment-dots fa-2x">Comentario:</i>
+            <form>
+            <textarea id="publicacion-texto"></textarea>
+                <button class="btn-flat waves-effect waves-light blue-grey white-text right hide-on-small-only" type="submit" name="action"><i class="material-icons right">send</i>Enviar</button>
+                <button class="btn-floating waves-effect waves-light blue-grey white-text right hide-on-med-and-up" type="submit" name="action"><i class="material-icons right">send</i></button>
+            </form>
+    </div>
+ </div>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>

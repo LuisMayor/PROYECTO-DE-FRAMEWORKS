@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/merida.JPG);
+    background-image: url(../img/way.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -16,9 +16,10 @@ body {
     width: 100%;
     height: 125px;
     position: fixed;
+    /*background-color: rgba(229, 229, 236, 0.4);*/
         }
  .barra-superior h1{
-    color: rgb(36, 20, 126);
+    color: #ffffff;
     font: oblique bold 300% cursive;
     text-align: left;
  }
@@ -48,4 +49,12 @@ body {
 
 .autor img{
     border-radius: 50%;
+}
+
+.comentario{
+    background: rgba(229, 229, 236, 0.4);
+    color:#fff;    
+}
+.coro, .aragua, .salto img{
+    padding: 2%;
 }
